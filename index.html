@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>  
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <center>
+        <h1>В корзине <span id="total">0</span> товаров</h1>
+        <div>
+            <button data-action="five" >Показать первые 5</button>
+            <button data-action="all" >Показать все</button>
+            <button class="tovar">Товары</button>
+        </div>
+    </center>
+
+
+    <div class="menu">
+        <h2>Cart</h2>
+        <button class="close-dialog">X</button>
+        <div class="wrapper">
+            <div class="items-cont">
+                <div class="cart-item" >
+                    <div class="left" >
+                        <!-- <img src="" alt="">
+                        <div class="Names" >
+                            <span class="title" >Title</span> <br>
+                            <span class="price" >Price</span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="counter">
+                            <button class="knopka">+</button>
+                            <input class="udalit"type="number" value="0" />
+                            <button class="knopka">-</button>
+                        </div>
+                        <button>remove</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Buy">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Total:</td>
+                        <td></td>
+                        <td class="money">0$</td>
+                    </tr>
+                    <tr>
+                        <td>Amount:</td>
+                        <td></td>
+                        <td class="amount">0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button>Checkout</button>
+        </div>
+    </div>
+
+    <div class="container"></div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
